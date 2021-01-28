@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D8EBBDCF2377C76B175450 /* Pods_flowers_recognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4A1D883E6AD320761C9AF7 /* Pods_flowers_recognition.framework */; };
+		BB4D5E6D25BF707D0051C559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D5E6C25BF707D0051C559 /* AppDelegate.swift */; };
+		BB4D5E6F25BF707D0051C559 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D5E6E25BF707D0051C559 /* SceneDelegate.swift */; };
+		BB4D5E7125BF707D0051C559 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D5E7025BF707D0051C559 /* LoginViewController.swift */; };
+		BB4D5E7425BF707D0051C559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4D5E7225BF707D0051C559 /* Main.storyboard */; };
+		BB4D5E7625BF707F0051C559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4D5E7525BF707F0051C559 /* Assets.xcassets */; };
+		BB4D5E7925BF707F0051C559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4D5E7725BF707F0051C559 /* LaunchScreen.storyboard */; };
+		BB8AC2BE25C0E8E5001962AC /* raio_de_sol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB8AC2BD25C0E8E5001962AC /* raio_de_sol.jpg */; };
+		BB8AC2C225C1D3D6001962AC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8AC2C125C1D3D6001962AC /* logo.png */; };
+		BBF6062425C336DD00BAD5CB /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BBF6062325C336DD00BAD5CB /* FlowerClassifier.mlmodel */; };
+		BBF6062B25C33C7C00BAD5CB /* flower recognition.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF6062A25C33C7C00BAD5CB /* flower recognition.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C8DAB1353551E4A958D6962 /* Pods-flowers-recognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flowers-recognition.release.xcconfig"; path = "Target Support Files/Pods-flowers-recognition/Pods-flowers-recognition.release.xcconfig"; sourceTree = "<group>"; };
+		7F4A1D883E6AD320761C9AF7 /* Pods_flowers_recognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flowers_recognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2CC5B896BAE15140549BC4 /* Pods-flowers-recognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flowers-recognition.debug.xcconfig"; path = "Target Support Files/Pods-flowers-recognition/Pods-flowers-recognition.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4D5E6925BF707D0051C559 /* flowers-recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flowers-recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4D5E6C25BF707D0051C559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB4D5E6E25BF707D0051C559 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB4D5E7025BF707D0051C559 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB4D5E7325BF707D0051C559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB4D5E7525BF707F0051C559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB4D5E7825BF707F0051C559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB4D5E7A25BF707F0051C559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8AC2BD25C0E8E5001962AC /* raio_de_sol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raio_de_sol.jpg; sourceTree = "<group>"; };
+		BB8AC2C025C1D3BF001962AC /* logo.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = logo.sketch; sourceTree = SOURCE_ROOT; };
+		BB8AC2C125C1D3D6001962AC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+		BBF6062325C336DD00BAD5CB /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = FlowerClassifier.mlmodel; path = "../../Models Machine Learning/Flower Classifier/FlowerClassifier.mlmodel"; sourceTree = "<group>"; };
+		BBF6062A25C33C7C00BAD5CB /* flower recognition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower recognition.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB4D5E6625BF707D0051C559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D8EBBDCF2377C76B175450 /* Pods_flowers_recognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CD9DD7E2BBF3D51639CC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C2CC5B896BAE15140549BC4 /* Pods-flowers-recognition.debug.xcconfig */,
+				2C8DAB1353551E4A958D6962 /* Pods-flowers-recognition.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB4D5E6025BF707D0051C559 = {
+			isa = PBXGroup;
+			children = (
+				BB4D5E6B25BF707D0051C559 /* flowers-recognition */,
+				BB4D5E6A25BF707D0051C559 /* Products */,
+				05CD9DD7E2BBF3D51639CC2C /* Pods */,
+				D29BE2E57EAD7A9F8F5C01E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB4D5E6A25BF707D0051C559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4D5E6925BF707D0051C559 /* flowers-recognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB4D5E6B25BF707D0051C559 /* flowers-recognition */ = {
+			isa = PBXGroup;
+			children = (
+				BB4D5E6C25BF707D0051C559 /* AppDelegate.swift */,
+				BB4D5E6E25BF707D0051C559 /* SceneDelegate.swift */,
+				BB4D5E7025BF707D0051C559 /* LoginViewController.swift */,
+				BB4D5E7225BF707D0051C559 /* Main.storyboard */,
+				BB4D5E7525BF707F0051C559 /* Assets.xcassets */,
+				BB4D5E7725BF707F0051C559 /* LaunchScreen.storyboard */,
+				BB4D5E7A25BF707F0051C559 /* Info.plist */,
+				BB8AC2BD25C0E8E5001962AC /* raio_de_sol.jpg */,
+				BB8AC2C125C1D3D6001962AC /* logo.png */,
+				BB8AC2C025C1D3BF001962AC /* logo.sketch */,
+				BBF6062325C336DD00BAD5CB /* FlowerClassifier.mlmodel */,
+				BBF6062A25C33C7C00BAD5CB /* flower recognition.png */,
+			);
+			path = "flowers-recognition";
+			sourceTree = "<group>";
+		};
+		D29BE2E57EAD7A9F8F5C01E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A1D883E6AD320761C9AF7 /* Pods_flowers_recognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB4D5E6825BF707D0051C559 /* flowers-recognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4D5E7D25BF707F0051C559 /* Build configuration list for PBXNativeTarget "flowers-recognition" */;
+			buildPhases = (
+				CD5FF7C99036E3425920B131 /* [CP] Check Pods Manifest.lock */,
+				BB4D5E6525BF707D0051C559 /* Sources */,
+				BB4D5E6625BF707D0051C559 /* Frameworks */,
+				BB4D5E6725BF707D0051C559 /* Resources */,
+				8D4217E90108666F8744C41B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flowers-recognition";
+			productName = "flowers-recognition";
+			productReference = BB4D5E6925BF707D0051C559 /* flowers-recognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4D5E6125BF707D0051C559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BB4D5E6825BF707D0051C559 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = BB4D5E6425BF707D0051C559 /* Build configuration list for PBXProject "flowers-recognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB4D5E6025BF707D0051C559;
+			productRefGroup = BB4D5E6A25BF707D0051C559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB4D5E6825BF707D0051C559 /* flowers-recognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB4D5E6725BF707D0051C559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4D5E7925BF707F0051C559 /* LaunchScreen.storyboard in Resources */,
+				BBF6062B25C33C7C00BAD5CB /* flower recognition.png in Resources */,
+				BB8AC2C225C1D3D6001962AC /* logo.png in Resources */,
+				BB4D5E7625BF707F0051C559 /* Assets.xcassets in Resources */,
+				BB8AC2BE25C0E8E5001962AC /* raio_de_sol.jpg in Resources */,
+				BB4D5E7425BF707D0051C559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D4217E90108666F8744C41B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flowers-recognition/Pods-flowers-recognition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flowers-recognition/Pods-flowers-recognition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flowers-recognition/Pods-flowers-recognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5FF7C99036E3425920B131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flowers-recognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB4D5E6525BF707D0051C559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF6062425C336DD00BAD5CB /* FlowerClassifier.mlmodel in Sources */,
+				BB4D5E7125BF707D0051C559 /* LoginViewController.swift in Sources */,
+				BB4D5E6D25BF707D0051C559 /* AppDelegate.swift in Sources */,
+				BB4D5E6F25BF707D0051C559 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB4D5E7225BF707D0051C559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB4D5E7325BF707D0051C559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB4D5E7725BF707F0051C559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB4D5E7825BF707F0051C559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB4D5E7B25BF707F0051C559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB4D5E7C25BF707F0051C559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB4D5E7E25BF707F0051C559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2CC5B896BAE15140549BC4 /* Pods-flowers-recognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				INFOPLIST_FILE = "flowers-recognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.eti.manoelfilho.flowers-recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB4D5E7F25BF707F0051C559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8DAB1353551E4A958D6962 /* Pods-flowers-recognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				INFOPLIST_FILE = "flowers-recognition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.eti.manoelfilho.flowers-recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB4D5E6425BF707D0051C559 /* Build configuration list for PBXProject "flowers-recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4D5E7B25BF707F0051C559 /* Debug */,
+				BB4D5E7C25BF707F0051C559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4D5E7D25BF707F0051C559 /* Build configuration list for PBXNativeTarget "flowers-recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4D5E7E25BF707F0051C559 /* Debug */,
+				BB4D5E7F25BF707F0051C559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB4D5E6125BF707D0051C559 /* Project object */;
+}
